@@ -1,3 +1,5 @@
+import { TypeAnimation } from 'react-type-animation';
+
 const HomeCV = () => {
     return (
         <>
@@ -11,13 +13,31 @@ const HomeCV = () => {
                         <div className="content hero">
                             <div className="inner_content">
                                 <div className="image_wrap">
-                                    <img src="img/hero/img.jpg" alt="hero" />
+                                    <img src="img/hero/Avatar.jpg" alt="hero" />
                                 </div>
                                 <div className="name_holder">
-                                    <h3>Alan <span>Michaelis</span></h3>
+                                    <h3>My name is <span>Duy</span></h3>
                                 </div>
                                 <div className="text_typing">
-                                    <p>I'm a <span className="arlo_tm_animation_text_word"></span></p>
+                                    <p>I'm a
+                                        <TypeAnimation
+                                            sequence={[
+                                                ' Student', // Types 'One'
+                                                2000, // Waits 1s
+                                                ' Technology Lover', // Deletes 'One' and types 'Two'
+                                                2000, // Waits 2s
+                                                ' Developer', // Types 'Three' without deleting 'Two'
+                                                2000,
+                                                () => {
+                                                    console.log('Sequence completed'); // Place optional callbacks anywhere in the array
+                                                }
+                                            ]}
+                                            wrapper="span"
+                                            cursor={true}
+                                            repeat={Infinity}
+                                        // style={{ fontSize: '2em', display: 'inline-block' }}
+                                        />
+                                    </p>
                                 </div>
                             </div>
                         </div>
