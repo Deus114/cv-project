@@ -14,7 +14,7 @@ const Leftpart = () => {
                             <li><a href="#about">About Me</a></li>
                             <li><a href="#skills">Skills</a></li>
                             <li><a href="#services">Projects</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                     <div className="leftpart_bottom">
