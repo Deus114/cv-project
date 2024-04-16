@@ -13,11 +13,12 @@ const Skills = () => {
                                 <div className="arlo_tm_mini_title_holder">
                                     <h4>Front-end</h4>
                                 </div>
-                                <li><b>Programing Language: </b>Javascript, Typescript</li>
-                                <li><b>Framework/Library: </b>ReacJs, Boostrap</li>
-                            </div>
-                            <div className="rightbox">
-
+                                <li><b>Programing Language: </b>Javascript, TypeScript, PHP, C++,...</li>
+                                <li><b>Framework/Library: </b>Nodejs, Express, Laravel, ReactJs, Boostrap,...</li>
+                                <li><b>Database: </b>MongoDB, MySql, ...</li>
+                                <li>Understand MVC model, RESTfull api ...</li>
+                                <li><b>Tools: </b>GitHub, Sourcetree, Postman, Jira ...</li>
+                                <li><b>Toeic: </b>775 (Listening and Reading).</li>
                             </div>
                         </div>
                     </div>

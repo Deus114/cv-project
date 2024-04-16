@@ -95,7 +95,30 @@ const Project = () => {
                 github: "https://github.com/Deus114/Mobile_Store",
             },
 
-        }
+        },
+        {
+            image: <>
+                <IoLogoReact
+                    size={50}
+                    color={'#2bebfd'}
+                /><DiNodejsSmall
+                    size={50}
+                    color={'#00a80c'}
+                /></>,
+            title: "HCMUT SmartPrinting service",
+            shortDescription: "The smart printing service for HCMUT's students",
+            detail: {
+                description: `Design and implement the smart printing service for HCMUT's students as a subject's assignment.
+                `,
+                frontend: "ReactJs.",
+                backend: "NodeJs.",
+                member: 7,
+                role: "Developer",
+                demo: "",
+                github: "https://github.com/QuocAnU/Smart-Printing-Service",
+            },
+
+        },
     ]
 
     return (

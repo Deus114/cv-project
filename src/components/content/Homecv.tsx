@@ -19,25 +19,7 @@ const HomeCV = () => {
                                     <h3>My name is <span>Duy</span></h3>
                                 </div>
                                 <div className="text_typing">
-                                    <p>I'm a
-                                        <TypeAnimation
-                                            sequence={[
-                                                ' Student', // Types 'One'
-                                                2000, // Waits 1s
-                                                ' Technology Lover', // Deletes 'One' and types 'Two'
-                                                2000, // Waits 2s
-                                                ' Developer', // Types 'Three' without deleting 'Two'
-                                                2000,
-                                                () => {
-                                                    console.log('Sequence completed'); // Place optional callbacks anywhere in the array
-                                                }
-                                            ]}
-                                            wrapper="span"
-                                            cursor={true}
-                                            repeat={Infinity}
-                                        // style={{ fontSize: '2em', display: 'inline-block' }}
-                                        />
-                                    </p>
+                                    <p>I'm a' Student</p>
                                 </div>
                             </div>
                         </div>
