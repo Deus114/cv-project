@@ -19,7 +19,7 @@ const HomeCV = () => {
                                     <h3>My name is <span>Duy</span></h3>
                                 </div>
                                 <div className="text_typing">
-                                    <p>I'm a' Student</p>
+                                    <p>I'm a Student</p>
                                 </div>
                             </div>
                         </div>
